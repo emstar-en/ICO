@@ -1,7 +1,7 @@
 # ICO: Intrinsic Curvature Oriented Substrate — Core Specification v0.0.1 (Draft)
 
 ## Status
-- Draft specification of ICO, the geometry substrate used by HyperSync.
+- Draft specification of ICO
 - Licensing: Spec CC BY 4.0; reference implementations Apache-2.0.
 - Normative terms as per RFC 2119.
 
@@ -18,7 +18,7 @@ ICO defines a geometry-native substrate spanning Euclidean, hyperbolic, and sphe
 - Core operations (distance, exp/log, parallel transport, barycenters).
 - Safety contracts (“stay-on-manifold”, “no-Euclidean-intermediates” under native geometry).
 - Conformance tiers and test vectors.
-Non-goals: ICO is not an app protocol or storage layer; it is the substrate for higher orchestration (e.g., HyperSync).
+Non-goals: ICO is not an app protocol or storage layer; it is the substrate for higher orchestration.
 
 ## 2. Terminology and Notation
 - **κ**: curvature. 0 for E, <0 for H, >0 for S.
