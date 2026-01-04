@@ -109,24 +109,16 @@ Vectors (icov) include: test_id, profile, model, inputs, expected_output (ranges
  "version": "0.0.1"
 }
 ```
-- Versioning: 1.0 Core. Deprecations via alias_of; JSON schema backward compatibility for minor versions.
-
-## 9. Reference Algorithms (Informative, Normative Targets in Tests)
-- `ALG-ICO-DIST-E/H/S`
-- `ALG-ICO-EXP/LOG-E/H/S`
-- `ALG-ICO-PT-E/H/S`
-- `ALG-ICO-BARY-E/H/S`
-- `ALG-ICO-MODEL-XFORM-H`
-
-## 10. Security and Privacy
+- Versioning: v0.0.1
+## 9. Security and Privacy
 - Deterministic mode minimizes side channels; numeric policy constrains instability.
 - Strict domain checks to prevent undefined behavior (antipodal S, spacelike H).
 
-## 11. Governance and Licensing
+## 10. Governance and Licensing
 - WG with ADRs, public cadence, and artifact registry for vectors.
 - Spec CC BY 4.0, reference kernels Apache-2.0.
 
-## 12. Profiles (Normative Appendices)
+## 11. Profiles (Normative Appendices)
 - **ICO-E**: ℝ^n, g=I, closed forms.
 - **ICO-H**: Lorentz model canonical; equivalence mappings to Poincaré; stability guidance for large rapidities.
 - **ICO-S**: S^n with great-circle geodesics; antipodal cut-locus handling.
