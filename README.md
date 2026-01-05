@@ -1,4 +1,4 @@
-# ICO: Intrinsic Curvature Oriented Substrate — Core Specification v0.0.1 (Draft)
+# ICO: Intrinsic Curvature Orientation Substrate — Core Specification v0.0.1 (Draft)
 
 ## Status
 - Draft specification of ICO
